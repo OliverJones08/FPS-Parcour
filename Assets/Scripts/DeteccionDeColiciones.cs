@@ -11,8 +11,10 @@ public class DeteccionDeColiciones : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void OnCollisionEnter(Collision collision)
     {
-        
+        Debug.Log("Contacto" + collision.gameObject.name);
+        Destroy(collision.gameObject);
     }
 }
+
