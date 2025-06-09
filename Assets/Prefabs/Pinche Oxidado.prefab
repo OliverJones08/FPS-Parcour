@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 2138205086716949294}
   - component: {fileID: 5077766988089138945}
   - component: {fileID: 258192673145923545}
-  - component: {fileID: 6780550699809773608}
+  - component: {fileID: 7272310012387853284}
+  - component: {fileID: 8791344732857429072}
   m_Layer: 0
   m_Name: Pinche Oxidado
   m_TagString: Untagged
@@ -109,7 +110,7 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5495902117074765545, guid: ab1fb5a26183e4d8a8d02c1b4e53692d, type: 3}
---- !u!54 &6780550699809773608
+--- !u!54 &7272310012387853284
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -136,3 +137,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8791344732857429072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6160937080901857684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56a059c349b084361acd0f13dcad66e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
